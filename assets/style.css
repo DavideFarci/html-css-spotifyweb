@@ -82,7 +82,8 @@ main {
 
 nav ul {
     color: var(--bg-grey-text);
-    font-size: .9em;
+    font-size: .8em;
+    font-weight: 600;
     display: flex;
     justify-content: center;
     gap: 1rem;
