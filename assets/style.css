@@ -5,3 +5,51 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+
+/* main  */
+
+
+main {
+    height: 100vh;
+}
+
+.bar-header {
+    height: 4rem;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+.bar-nav {
+    background-color: salmon;
+    width: 20%;
+    height: calc(100vh - 5rem) ;
+    overflow-y: hidden;
+    z-index: 900;
+}
+
+.main-section {
+    width: 80%;
+    background-color: gold;
+    height: calc(100vh - 5rem);
+    overflow-y: auto;
+    padding-top: 4rem;
+}
+
+.player {
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
