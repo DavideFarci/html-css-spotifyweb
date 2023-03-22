@@ -23,6 +23,14 @@ main {
     background-color: black;
 }
 
+.bar-header button {
+    position: absolute;
+    top: 1rem;
+    right: 4rem;
+    padding: .5em 2em;
+    border-radius: 2rem;
+}
+
 .row {
     display: flex;
 }
