@@ -97,7 +97,7 @@ nav ul {
 }
 
 .square img {
-    height: 12em;
+    width: 12em;
 }
 
 .square {
@@ -106,9 +106,15 @@ nav ul {
     flex-direction: column;
     align-items: center;
     gap: .5rem;
-    width: calc(100% / 6 - 2rem);
+    width: calc(100% / 6) - 2rem;
 }
 
-.square div {
+.square .album-title,
+.square .subtitle {
+    max-width: 13em;
+    text-align: center;
+}
+
+.square .subtitle {
     color: var(--bg-grey-text);
 }
