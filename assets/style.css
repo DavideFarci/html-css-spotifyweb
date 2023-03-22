@@ -85,3 +85,13 @@ nav ul {
     list-style: none ;
     padding: .5rem;
 }
+
+.squares {
+    display: flex;
+
+}
+
+.squares img {
+    height: 10em;
+    
+}
