@@ -87,6 +87,7 @@ nav ul {
     font-weight: 600;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
     list-style: none ;
     padding: .5rem;
@@ -159,4 +160,15 @@ nav ul {
     .square {
         width: calc((100% - 1rem) / 2) ;
     }
+}
+
+/* bar-nav content  */
+
+.bar-nav .logo {
+    height: 9%;
+    padding: .9rem;
+}
+
+.bar-nav .logo img {
+    width: 80%;
 }
