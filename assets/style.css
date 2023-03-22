@@ -134,3 +134,7 @@ nav ul {
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
+.popular .squares img {
+    border-radius: 20rem;
+}
