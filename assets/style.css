@@ -118,3 +118,15 @@ nav ul {
 .square .subtitle {
     color: var(--bg-grey-text);
 }
+
+/* aggiustamenti per le righe craated-for e popolari  */
+
+.created-for h2 {
+    margin-bottom: 0;
+}
+
+.created-for .subtitle-row {
+    color: var(--bg-grey-text);
+    font-size: .7em;
+    margin-bottom: 1rem;
+}
