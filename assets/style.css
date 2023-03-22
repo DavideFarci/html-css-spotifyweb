@@ -5,9 +5,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root {
+    --bg-play: #282828 ;
+    --bg-main: #141922;
+}
+
 
 /* main  */
 
+/* marco structure */
 
 main {
     height: 100vh;
@@ -24,11 +30,15 @@ main {
 }
 
 .bar-header button {
+    background-color: transparent;
+    color: white;
+    font-size: .7em;
     position: absolute;
     top: 1rem;
     right: 4rem;
     padding: .5em 2em;
     border-radius: 2rem;
+    border: 1px solid white;
 }
 
 .row {
@@ -36,7 +46,7 @@ main {
 }
 
 .bar-nav {
-    background-color: salmon;
+    background-color: black;
     width: 20%;
     height: calc(100vh - 5rem) ;
     overflow-y: hidden;
@@ -44,8 +54,9 @@ main {
 }
 
 .main-section {
+    background-color: var(--bg-main);
+    color: white;
     width: 80%;
-    background-color: gold;
     height: calc(100vh - 5rem);
     overflow-y: auto;
     padding-top: 4rem;
@@ -54,10 +65,13 @@ main {
 .player {
     height: 5rem;
     width: 100%;
-    background-color: black;
+    background-color: var(--bg-play);
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 1000;
 }
+
+/* main-section content  */
+
