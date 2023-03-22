@@ -98,7 +98,7 @@ nav ul {
 }
 
 .square img {
-    width: 13em;
+    width: 100%;
 }
 
 .square {
@@ -112,7 +112,6 @@ nav ul {
 
 .square .album-title,
 .square .subtitle {
-    max-width: 13em;
     text-align: center;
 }
 
