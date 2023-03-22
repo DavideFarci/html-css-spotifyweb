@@ -97,7 +97,7 @@ nav ul {
 }
 
 .square img {
-    width: 12em;
+    width: 13em;
 }
 
 .square {
@@ -116,6 +116,7 @@ nav ul {
 }
 
 .square .subtitle {
+    font-size: .8em;
     color: var(--bg-grey-text);
 }
 
@@ -129,6 +130,8 @@ nav ul {
 .created-for .subtitle-row,
 .popular .subtitle-row {
     color: var(--bg-grey-text);
-    font-size: .7em;
+    font-size: .8em;
+    
+    font-weight: 600;
     margin-bottom: 1rem;
 }
