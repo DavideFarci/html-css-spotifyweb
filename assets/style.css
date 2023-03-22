@@ -41,7 +41,7 @@ main {
     border: 1px solid white;
 }
 
-.row {
+.main-row {
     display: flex;
 }
 
