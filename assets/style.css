@@ -121,11 +121,13 @@ nav ul {
 
 /* aggiustamenti per le righe craated-for e popolari  */
 
-.created-for h2 {
+.created-for h2,
+.popular h2 {
     margin-bottom: 0;
 }
 
-.created-for .subtitle-row {
+.created-for .subtitle-row,
+.popular .subtitle-row {
     color: var(--bg-grey-text);
     font-size: .7em;
     margin-bottom: 1rem;
