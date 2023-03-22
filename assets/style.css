@@ -163,6 +163,27 @@ nav ul {
 }
 
 /* bar-nav content  */
+.bar-nav {
+    color: var(--bg-grey-text);
+    font-size: .8em;
+    padding-inline: 1rem;
+}
+
+.bar-nav .my-spotify {
+    margin: .5rem 0;
+}
+
+.bar-nav .my-spotify ul {
+    list-style: none;
+}
+
+.bar-nav .my-spotify ul li {
+    margin-bottom: .4rem;
+}
+
+.bar-nav .my-spotify i {
+    font-size: 1.5em;
+}
 
 .bar-nav .logo {
     height: 9%;
