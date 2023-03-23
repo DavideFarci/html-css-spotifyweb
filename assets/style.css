@@ -171,6 +171,8 @@ nav ul {
     color: var(--bg-grey-text);
     font-size: .8em;
     padding: .8rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .bar-nav .my-spotify {
@@ -216,9 +218,9 @@ nav ul {
 }
 
 .bar-nav .account {
-    position: relative;
+    /* position: relative;        
     top: 22.5rem;
-    left: 0;
+    left: 0; */
 }
 
 .account > :first-child {
