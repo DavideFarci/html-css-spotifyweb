@@ -245,6 +245,7 @@ nav ul {
     cursor: pointer;
     color: white;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 
