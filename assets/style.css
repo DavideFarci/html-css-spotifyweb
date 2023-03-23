@@ -163,6 +163,10 @@ nav ul {
 }
 
 /* bar-nav content  */
+.bar-nav .bar-nav-smart {
+    display: none;
+}
+
 .bar-nav {
     color: var(--bg-grey-text);
     font-size: .8em;
