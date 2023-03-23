@@ -270,9 +270,15 @@ nav ul {
 }
 
 .bar-nav .playlist li i {
+    font-size: 1.5em;
     color: black;
     background-color: var(--bg-grey-text);
-    padding: .9rem;
+    padding: .8rem;
+}
+
+.bar-nav .playlist span {
+    margin-left: .3rem;
+    vertical-align: 3px;
 }
 
 .account > :first-child {
