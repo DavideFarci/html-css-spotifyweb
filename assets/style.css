@@ -200,6 +200,10 @@ nav ul {
     width: 75%;
 }
 
+.bar-nav .playlist {
+    margin-bottom: 22rem;
+}
+
 .bar-nav .playlist li {
     list-style: none;
     margin-bottom: .5rem;
