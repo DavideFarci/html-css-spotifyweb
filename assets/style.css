@@ -282,6 +282,20 @@ nav ul {
     vertical-align: 3px;
 }
 
+.bar-nav .playlist span:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bar-nav .playlist .name-play:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .account > :first-child {
     border-bottom: 1px solid var(--bg-grey-text);
     padding-bottom: .3rem;
