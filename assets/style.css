@@ -166,7 +166,7 @@ nav ul {
 .bar-nav {
     color: var(--bg-grey-text);
     font-size: .8em;
-    padding-inline: 1rem;
+    padding: .8rem 1rem;
 }
 
 .bar-nav .my-spotify {
@@ -187,7 +187,7 @@ nav ul {
 
 .bar-nav .logo {
     height: 9%;
-    padding: .9rem;
+    /* padding: .9rem; */
 }
 
 .bar-nav .logo img {
@@ -213,7 +213,7 @@ nav ul {
 
 .bar-nav .account {
     position: relative;
-    top: 23rem;
+    top: 22.5rem;
     left: 0;
 }
 
