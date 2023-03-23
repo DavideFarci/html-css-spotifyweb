@@ -42,6 +42,12 @@ main {
     border: 1px solid white;
 }
 
+.bar-header button:hover {
+    font-size: .8em;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .main-row {
     display: flex;
 }
