@@ -116,7 +116,7 @@ nav ul {
 }
 
 .square .image-cont:hover img {
-    opacity: .7;
+    opacity: .6;
     cursor: pointer;
 }
 
@@ -239,6 +239,14 @@ nav ul {
 .bar-nav .my-spotify img {
     width: 2em;
 }
+
+.bar-nav .my-spotify span:hover,
+.bar-nav .my-spotify img:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
+
 
 .bar-nav .logo {
     height: 9%;
