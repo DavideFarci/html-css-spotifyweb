@@ -173,6 +173,7 @@ nav ul {
     padding: .8rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .bar-nav .my-spotify {
@@ -193,15 +194,11 @@ nav ul {
 
 .bar-nav .logo {
     height: 9%;
-    /* padding: .9rem; */
+    margin-bottom: 2rem;
 }
 
 .bar-nav .logo img {
     width: 75%;
-}
-
-.bar-nav .playlist {
-    margin-bottom: 22rem;
 }
 
 .bar-nav .playlist li {
@@ -256,4 +253,18 @@ nav ul {
     background-color: var(--bg-grey-text);
     height: 25px;
     border-radius: 50px;
+}
+
+/* media query per bar-nav  */
+
+@media screen and (max-width: 600px) {
+    
+
+    .bar-nav {
+        width: 50px;
+    }   
+
+    .main-section {
+        width: calc(100% - 50px);
+    }
 }
