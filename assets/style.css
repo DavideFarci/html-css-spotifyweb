@@ -210,3 +210,40 @@ nav ul {
     background-color: var(--bg-grey-text);
     padding: .9rem;
 }
+
+.bar-nav .account {
+    position: relative;
+    top: 23rem;
+    left: 0;
+}
+
+.account > :first-child {
+    border-bottom: 1px solid var(--bg-grey-text);
+    padding-bottom: .3rem;
+}
+
+.account :first-child img {
+    height: 16px;
+}
+
+.account :first-child a {
+    color: var(--bg-grey-text);
+    text-decoration: none;
+    vertical-align: 3px;
+    margin-left: 4px;
+}
+
+.account .name-profile {
+    margin-top: .3rem;
+}
+
+.account .name-profile :last-child {
+    vertical-align: 9px;
+    margin-left: 4px;
+}
+
+.account :nth-child(2) img {
+    background-color: var(--bg-grey-text);
+    height: 25px;
+    border-radius: 50px;
+}
