@@ -312,8 +312,20 @@ nav ul {
     margin-left: 4px;
 }
 
+.account :first-child a:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .account .name-profile {
     margin-top: .3rem;
+}
+
+.account .name-profile:hover {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .account .name-profile :last-child {
