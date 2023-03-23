@@ -203,8 +203,12 @@ nav ul {
     margin-bottom: .4rem;
 }
 
-.bar-nav .my-spotify i {
-    font-size: 1.5em;
+.bar-nav .my-spotify span {
+    vertical-align: 8px;
+}
+
+.bar-nav .my-spotify img {
+    width: 2em;
 }
 
 .bar-nav .logo {
@@ -231,12 +235,6 @@ nav ul {
     color: black;
     background-color: var(--bg-grey-text);
     padding: .9rem;
-}
-
-.bar-nav .account {
-    /* position: relative;        
-    top: 22.5rem;
-    left: 0; */
 }
 
 .account > :first-child {
@@ -285,6 +283,7 @@ nav ul {
 
     .bar-nav {
         width: 50px;
+        padding: .8rem;
     }   
 
     .main-section {
