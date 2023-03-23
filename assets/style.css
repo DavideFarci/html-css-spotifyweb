@@ -45,7 +45,7 @@
 
 .bar-nav {
     background-color: black;
-    width: 17%;
+    width: 230px;
     height: calc(100vh - 5rem) ;
     overflow-y: hidden;
     z-index: 900;
@@ -54,7 +54,7 @@
 .main-section {
     background-color: var(--bg-main);
     color: white;
-    width: 83%;
+    width: calc(100% - 230px);
     height: calc(100vh - 5rem);
     overflow-y: auto;
     overflow-x: hidden;
