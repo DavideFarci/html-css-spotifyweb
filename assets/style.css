@@ -448,7 +448,7 @@ nav ul :first-child:after {
 
 .play-center {
     color: white;
-    flex: 0 0 60%;
+    flex: 0 1 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,7 +482,8 @@ nav ul :first-child:after {
 
 .bar-container .bar-song {
     background-color: var(--bg-grey-text);
-    min-width: 24rem;
+    min-width: 19rem;
+    width: 24rem;
     height: 5px;
     border-radius: 10px;
 }
@@ -492,12 +493,22 @@ nav ul :first-child:after {
     width: 30%;
     height: 5px;
     border-radius: 10px;
+    position: relative;
+}
+
+.bar-container .bar-song-now .fa-circle {
+    display: none;
+    color: var(--bg-grey-text);
+    font-size: 1.6em;
+    position: absolute;
+    right: -8px;
+    top: -5px;
 }
 
 .play-dx {
     color: var(--bg-grey-text);
     background-color: transparent;
-    flex: 0 0 20%;
+    flex: 0 1 20%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
