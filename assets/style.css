@@ -488,6 +488,15 @@ nav ul :first-child:after {
     border-radius: 10px;
 }
 
+.bar-container .bar-song:hover .bar-song-now {
+    background-color: greenyellow;
+}
+
+.bar-container .bar-song:hover .fa-circle {
+    display: unset;
+    cursor: pointer;
+}
+
 .bar-container .bar-song-now {
     background-color: white;
     width: 30%;
@@ -498,7 +507,7 @@ nav ul :first-child:after {
 
 .bar-container .bar-song-now .fa-circle {
     display: none;
-    color: var(--bg-grey-text);
+    color: white;
     font-size: 1.6em;
     position: absolute;
     right: -8px;
