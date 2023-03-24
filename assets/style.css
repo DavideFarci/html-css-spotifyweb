@@ -475,6 +475,11 @@ nav ul :first-child:after {
     gap: 1rem;
 }
 
+.play-center .bar-container :first-child,
+.play-center .bar-container :last-child {
+    font-size: .7em;
+}
+
 .bar-container .bar-song {
     background-color: var(--bg-grey-text);
     min-width: 24rem;
