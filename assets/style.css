@@ -487,6 +487,13 @@ nav ul :first-child:after {
     border-radius: 10px;
 }
 
+.bar-container .bar-song-now {
+    background-color: white;
+    width: 30%;
+    height: 5px;
+    border-radius: 10px;
+}
+
 .play-dx {
     color: var(--bg-grey-text);
     background-color: transparent;
