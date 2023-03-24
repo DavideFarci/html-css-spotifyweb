@@ -545,6 +545,11 @@ nav ul :first-child:after {
     padding: .3rem;
 }
 
+.play-dx i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .play-dx .volume {
     background-color: var(--bg-grey-text);
     min-width: 7.5rem;
