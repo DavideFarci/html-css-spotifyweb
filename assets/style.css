@@ -419,13 +419,6 @@ nav ul :first-child:after {
     padding: .3rem;
 }
 
-.play-sx,
-.play-center, 
-.play-dx {
-    background-color: salmon;
-    border: 1px solid white;
-}
-
 .play-sx {
     background-color: transparent;
     color: var(--bg-grey-text);
@@ -440,7 +433,39 @@ nav ul :first-child:after {
 }
 
 .play-center {
+    color: white;
     flex: 0 0 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.play-center .play-control {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.play-center .play-control i {
+    font-size: 1.1em;
+}
+
+.play-center .play-control :nth-child(3) {
+    font-size: 2rem;
+}
+
+.play-center .bar-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bar-container .bar-song {
+    background-color: var(--bg-grey-text);
+    min-width: 24rem;
+    height: 5px;
+    border-radius: 10px;
 }
 
 .play-dx {
@@ -449,15 +474,15 @@ nav ul :first-child:after {
     flex: 0 0 20%;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     gap: .5rem;
     padding: .3rem;
 }
 
 .play-dx .volume {
-    display: inline-block;
     background-color: var(--bg-grey-text);
     min-width: 7.5rem;
-    height: 6px;
+    height: 5px;
     border-radius: 10px;
 }
 
