@@ -99,6 +99,23 @@ nav ul {
     padding: .5rem;
 }
 
+nav li {
+    padding: .5rem .7rem;
+    position: relative;
+}
+
+nav ul :first-child:after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 35% ;
+    bottom: 0;
+    left: 35%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: greenyellow;
+}
+
 .squares {
     display: flex;
     gap: 1rem;
