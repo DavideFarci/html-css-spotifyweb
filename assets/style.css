@@ -253,6 +253,17 @@ nav ul :first-child:after {
 
 .bar-nav .my-spotify ul li {
     margin-bottom: .4rem;
+    position: relative;
+}
+
+.bar-nav .my-spotify ul :first-child::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 5px;
+    height: 26px;
+    left: -15px;
+    background-color: greenyellow;
 }
 
 .bar-nav .my-spotify span {
