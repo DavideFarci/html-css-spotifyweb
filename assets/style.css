@@ -465,6 +465,11 @@ nav ul :first-child:after {
     font-size: 1.1em;
 }
 
+.play-center .play-control i:hover {
+    text-shadow: #FFF 1px 0 3px;
+    cursor: pointer;
+}
+
 .play-center .play-control :nth-child(3) {
     font-size: 2rem;
 }
