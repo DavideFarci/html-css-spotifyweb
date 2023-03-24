@@ -542,5 +542,23 @@ nav ul :first-child:after {
     height: 100%;
     background-color: white;
     border-radius: 10px;
+    position: relative;
 }
 
+.play-dx .volume-now .fa-circle {
+    display: none;
+    color: white;
+    font-size: 1.1em;
+    position: absolute;
+    right: -12px;
+    top: -6px;
+}
+
+.play-dx .volume:hover .volume-now {
+    background-color: greenyellow;
+}
+
+.play-dx .volume:hover .fa-circle {
+    display: unset;
+    cursor: pointer;
+}
