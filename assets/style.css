@@ -104,6 +104,11 @@ nav li {
     position: relative;
 }
 
+nav ul :first-child {
+    color: white;
+    font-weight: bold;
+}
+
 nav ul :first-child:after {
     content: "";
     display: block;
