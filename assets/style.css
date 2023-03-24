@@ -104,6 +104,12 @@ nav li {
     position: relative;
 }
 
+nav li:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
 nav ul :first-child {
     color: white;
     font-weight: bold;
@@ -402,3 +408,63 @@ nav ul :first-child:after {
         width: calc(100% - 50px);
     }
 }
+
+/* player con comandi  */
+
+.player {
+    display: flex;
+    /* gap: 5rem; */
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem;
+}
+
+.play-sx,
+.play-center, 
+.play-dx {
+    background-color: salmon;
+    border: 1px solid white;
+}
+
+.play-sx {
+    background-color: transparent;
+    color: var(--bg-grey-text);
+    flex: 0 0 20%;
+    display: flex;
+    align-items: center;
+    padding: .1rem;
+}
+
+.play-image img {
+    height: 3.5em;
+}
+
+.play-center {
+    flex: 0 0 60%;
+}
+
+.play-dx {
+    color: var(--bg-grey-text);
+    background-color: transparent;
+    flex: 0 0 20%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .3rem;
+}
+
+.play-dx .volume {
+    display: inline-block;
+    background-color: var(--bg-grey-text);
+    min-width: 7.5rem;
+    height: 6px;
+    border-radius: 10px;
+}
+
+.play-dx .volume .volume-now {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
