@@ -284,7 +284,6 @@ nav ul :first-child:after {
 .bar-nav .my-spotify img:hover {
     cursor: pointer;
     color: white;
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -325,14 +324,12 @@ nav ul :first-child:after {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .bar-nav .playlist .name-play:hover {
     color: white;
     font-weight: bold;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .account > :first-child {
