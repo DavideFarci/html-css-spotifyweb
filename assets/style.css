@@ -555,7 +555,7 @@ nav ul :first-child:after {
 
 .play-dx .volume {
     background-color: var(--bg-grey-text);
-    min-width: 20%;
+    min-width: 30%;
     width: 40%;
     height: 5px;
     border-radius: 10px;
