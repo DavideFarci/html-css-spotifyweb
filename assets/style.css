@@ -456,6 +456,11 @@ nav ul :first-child:after {
     gap: .5rem;
 }
 
+.play-sx .icons-sx i:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .play-center {
     color: white;
     flex: 0 1 60%;
