@@ -425,11 +425,17 @@ nav ul :first-child:after {
     flex: 0 0 20%;
     display: flex;
     align-items: center;
+    gap: 1rem;
     padding: .1rem;
 }
 
 .play-image img {
     height: 3.5em;
+}
+
+.play-sx .icons-sx {
+    display: flex;
+    gap: .5rem;
 }
 
 .play-center {
