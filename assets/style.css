@@ -256,6 +256,11 @@ nav ul :first-child:after {
     position: relative;
 }
 
+.bar-nav .my-spotify ul :first-child {
+    color: white;
+    font-weight: bold;
+}
+
 .bar-nav .my-spotify ul :first-child::before {
     content: "";
     display: block;
