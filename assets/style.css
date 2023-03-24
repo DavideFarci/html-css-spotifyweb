@@ -433,6 +433,14 @@ nav ul :first-child:after {
     height: 3.5em;
 }
 
+.play-sx .info {
+    font-size: .9em;
+}
+
+.play-sx .info .author {
+    color: white;
+}
+
 .play-sx .icons-sx {
     display: flex;
     gap: .5rem;
