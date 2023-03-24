@@ -501,7 +501,7 @@ nav ul :first-child:after {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: .5rem;
+    gap: 1rem;
     padding: .3rem;
 }
 
