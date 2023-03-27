@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -585,4 +586,36 @@ nav ul :first-child:after {
 .play-dx .volume:hover .fa-circle {
     display: unset;
     cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .play-center .play-control i {
+        font-size: .9em;
+    }
+
+    .play-center .play-control :nth-child(3) {
+        font-size: 1.6rem;
+    }
+
+    .play-center .play-control {
+        gap: 1rem;
+    }
+
+    .play-dx .volume-now .fa-circle {
+        font-size: .8em;
+        top: -4px;
+    }
+
+    .bar-container .bar-song-now .fa-circle {
+        font-size: 1.3em;
+    }
+
+    .play-dx {
+        justify-content:flex-start;
+        gap: .7rem;
+    }
+
+    .play-dx i {
+        font-size: .7em;
+    }
 }
